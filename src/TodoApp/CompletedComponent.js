@@ -14,7 +14,7 @@ class CompletedComponent extends React.Component{
                     <div>
                         <p>{item.title}</p>
                         <p> {item.desc}</p>
-                        <button onClick={()=>this.props.prop2(item.id)}>undone</button>
+                        <button onClick={()=>this.props.prop2(item.id)}>undonee</button>
                     </div>
                 ))
             }
