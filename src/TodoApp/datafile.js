@@ -3,13 +3,15 @@ const data=[
       id:1,
       title:"one false",
       desc:"lyros training morning session",
-      status:false
+      status:false,
+      active:true
     },
     {
       id:2,
       title:"two true",
       desc:"meeting",
-      status:true
+      status:true,
+      active:true
     },
     {
       id:3,
