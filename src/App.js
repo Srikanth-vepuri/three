@@ -4,11 +4,13 @@ import TodoComponent from "./TodoApp/TodoComponent"
 import data from "./TodoApp/datafile"
 //import './TodoApp/App.css'
 import FormComponent from "./Components/FormComponents"
+import SimpleClassComponent from "./Components/SimpleClassComponent"
 
 function App(){
   return(
     <>
-    <TodoComponent data={data}></TodoComponent>
+    <SimpleClassComponent></SimpleClassComponent>
+    {/* <TodoComponent data={data}></TodoComponent> */}
     </>
   )
 }
